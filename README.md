@@ -73,7 +73,6 @@ Evoastra_major_project/
 
 ---
 
-## 🔍 Data Description
 
 # Dataset Information
 
@@ -331,4 +330,5 @@ Results (CSV + Graphs)
 This project demonstrates a **complete end-to-end data pipeline** for energy consumption analysis. It applies industry best practices in data handling, feature engineering, and analytical reporting. The results provide actionable insights for building energy optimization and sustainability initiatives.
 
 ---
+
 
