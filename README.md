@@ -255,6 +255,13 @@ Jupyter Notebook
 
 ## 💡 Key Insights & Use Cases
 
+### Key Findings
+
+- Energy consumption anomalies exhibit clear temporal patterns during HVAC startup, peak occupancy, and shutdown periods.
+- Morning and evening transitions show higher anomaly frequency, indicating operational inefficiencies.
+- Weather variables significantly influence energy demand, validating the physical relationship between climate and energy usage.
+- Early anomaly detection enables cost reduction, predictive maintenance, and improved system reliability.
+
 ### Potential Applications
 - **Energy Optimization** – Identify and reduce peak consumption periods
 - **Predictive Maintenance** – Detect equipment failures through anomalies
@@ -330,5 +337,6 @@ Results (CSV + Graphs)
 This project demonstrates a **complete end-to-end data pipeline** for energy consumption analysis. It applies industry best practices in data handling, feature engineering, and analytical reporting. The results provide actionable insights for building energy optimization and sustainability initiatives.
 
 ---
+
 
 
