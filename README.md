@@ -1,5 +1,5 @@
 # Evoastra Major Project – Energy Consumption Time-Series Analysis
-# building-energy-anomaly-detection
+# Building-Energy-Anomaly-Detection
 
 ## 📌 Project Overview
 
@@ -325,6 +325,7 @@ Results (CSV + Graphs)
 This project demonstrates a **complete end-to-end data pipeline** for energy consumption analysis. It applies industry best practices in data handling, feature engineering, and analytical reporting. The results provide actionable insights for building energy optimization and sustainability initiatives.
 
 ---
+
 
 
 
