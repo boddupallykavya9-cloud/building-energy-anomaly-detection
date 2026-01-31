@@ -46,25 +46,12 @@ The project follows a structured data pipeline:
 ```
 Evoastra_major_project/
 ├── README.md
-├── Evoastra/
-│   ├── Major_project_main.ipynb        # Main analysis notebook
-│   ├── *_cleaned.csv                   # Cleaned datasets (9 utilities)
-│   ├── data/
-│   │   ├── raw/                        # Raw energy datasets
-│   │   │   ├── electricity.csv
-│   │   │   ├── gas.csv
-│   │   │   ├── water.csv
-│   │   │   ├── solar.csv
-│   │   │   ├── steam.csv
-│   │   │   ├── chilledwater.csv
-│   │   │   ├── hotwater.csv
-│   │   │   ├── irrigation.csv
-│   │   │   ├── weather.csv
-│   │   │   ├── metadata.csv
-│   │   │   └── energy_subset.csv
-│   │   └── processed/
-│   │       └── features_energy.csv    # Feature-engineered dataset
-│   ├── models/                         # ML models
+├── requirements.txt
+├──Notebook
+│   └── Major_project_main.ipynb        # Main analysis notebook   
+├── models/                                # ML models
+│   ├── isolation_forest.pkl
+    └── scaler.pkl                  
 │   ├── results/                        # Analysis outputs
 │   │   ├── anomalies.csv              # Detected anomalies
 │   │   └── Graphs/                    # Visualizations
@@ -337,6 +324,7 @@ Results (CSV + Graphs)
 This project demonstrates a **complete end-to-end data pipeline** for energy consumption analysis. It applies industry best practices in data handling, feature engineering, and analytical reporting. The results provide actionable insights for building energy optimization and sustainability initiatives.
 
 ---
+
 
 
 
