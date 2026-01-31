@@ -75,6 +75,30 @@ Evoastra_major_project/
 
 ## 🔍 Data Description
 
+# Dataset Information
+
+## Dataset Description
+The datasets used in this project consist of time-series data related to building energy consumption collected from multiple sources, including electricity, gas, water, solar, steam, chilled water, irrigation, and weather parameters.
+
+These datasets capture energy usage patterns at regular time intervals and are suitable for analyzing trends, seasonality, and anomalies in building operations.
+
+---
+
+## Dataset Source
+The datasets used in this project are inspired by and derived from publicly available building energy datasets from Kaggle, specifically the Building Data Genome Project 2.
+
+🔗 Dataset Reference:
+https://www.kaggle.com/datasets/claytonmiller/buildingdatagenomeproject2
+
+The original datasets were cleaned, merged, and transformed as part of the preprocessing and feature engineering pipeline implemented in this project. As a result, the final processed datasets differ from the original source.
+
+---
+
+## Data Availability Note
+Due to GitHub file size limitations, large CSV datasets are not included directly in this repository.
+
+The datasets are generated and processed during runtime through the preprocessing and feature engineering steps provided in this notebook.
+
 The dataset contains **multi-utility energy consumption data** from building systems:
 
 | Utility | Description | Source File |
@@ -307,3 +331,4 @@ Results (CSV + Graphs)
 This project demonstrates a **complete end-to-end data pipeline** for energy consumption analysis. It applies industry best practices in data handling, feature engineering, and analytical reporting. The results provide actionable insights for building energy optimization and sustainability initiatives.
 
 ---
+
